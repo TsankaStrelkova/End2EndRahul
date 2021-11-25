@@ -32,8 +32,7 @@ public class LandingPage {
 	   wait.until(ExpectedConditions.elementToBeClickable(loginElement));
 	   loginElement.click();
 	   LoginPage lp = new LoginPage(driver);
-	   return lp;
-	   
+	   return lp; 
 	}
 	
 	public WebElement navigationBar ()
@@ -41,5 +40,4 @@ public class LandingPage {
 		return navigationBar;
 	}
 	
-
 }
