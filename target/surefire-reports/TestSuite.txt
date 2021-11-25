@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 14.9 s <<< FAILURE! - in TestSuite
+academy.ConsoleLogsTest.SeleniumDoubleTest  Time elapsed: 0.782 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at academy.ConsoleLogsTest.SeleniumDoubleTest(ConsoleLogsTest.java:47)
+
+academy.HomePageTest.checkTitle  Time elapsed: 0.782 s  <<< FAILURE!
+java.lang.AssertionError: Title is not correct expected [true] but found [false]
+	at academy.HomePageTest.checkTitle(HomePageTest.java:76)
+

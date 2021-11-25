@@ -1,0 +1,2 @@
+09:38:14.369 [Forwarding newSession on session null to remote] ERROR resources.Base - TEST: checkTitle Java script error: https://placehold.it/1920x1920.gif - Failed to load resource: net::ERR_CERT_DATE_INVALID
+09:38:14.371 [Forwarding newSession on session null to remote] ERROR resources.Base - TEST: checkTitle Java script error: https://placehold.it/1920x1920.gif - Failed to load resource: net::ERR_CERT_DATE_INVALID

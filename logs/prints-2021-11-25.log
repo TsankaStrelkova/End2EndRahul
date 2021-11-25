@@ -1,0 +1,3 @@
+09:38:14.365 [Forwarding newSession on session null to remote] ERROR resources.Base - TEST: checkTitle Java script error: https://placehold.it/1920x1920.gif - Failed to load resource: net::ERR_CERT_DATE_INVALID
+09:38:14.368 [Forwarding newSession on session null to remote] ERROR resources.Base - TEST: checkTitle Java script error: http://www.qaclickacademy.com/images/favicon.png - Failed to load resource: the server responded with a status of 404 (Not Found)
+09:38:14.368 [Forwarding newSession on session null to remote] ERROR resources.Base - TEST: checkTitle Java script error: https://placehold.it/1920x1920.gif - Failed to load resource: net::ERR_CERT_DATE_INVALID
