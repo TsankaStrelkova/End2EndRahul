@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class LandingPage {
 	// to achieve encapsulation define private variables and public methods 
 	// page http://www.qaclickacademy.com/
+	
 	public WebDriver driver;
 	public LandingPage(WebDriver driver)
 	{

@@ -9,6 +9,7 @@ public class LoginPage {
 	
 	// https://rahulshettyacademy.com/sign_in/
 	// to achieve encapsulation define private variables and public methods 
+	
 	public WebDriver driver;
 	public LoginPage(WebDriver driver)
 		{
@@ -30,7 +31,6 @@ public class LoginPage {
 	   return email;
    }
 
-   
    public WebElement getPasswordField ()
    {
 	   return password;
