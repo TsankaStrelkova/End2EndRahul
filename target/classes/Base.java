@@ -26,19 +26,18 @@ public class Base {
 		FileInputStream fis  = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\resources\\data.properties");
 	
 	    prop.load(fis);
-	    // use the line below if project is not parametrized on Jenkins
+	    // use the line below if project is not parametriсed on Jenkins
 	    String browserName = prop.getProperty("browser");
 	    
-	    // uncomment  the line below if the project is parametrized on Jenkins
+	    // uncomment  the line below if the project is parametriсed on Jenkins
 	    //String browserName = System.getProperty("browser");
 	    // It means that we  run tests using mvn test -Dbrowser=chrome
-	    // to make this parametrization on Jenkins, click on the project , then on Configure, click on the check-box "This project is parameterized"
+	    // to make this parametriсation on Jenkins, click on the project , then on Configure, click on the check-box "This project is parameterized"
 	    // Then click on the Add parameter --> Choice parameter
 	    // Put  Name=browser , put in Choices in a separate rows chrome firefox chrome headless
 	    // Then in the Build section instead of test write test -Dbrowser="$browser"
 	    
 
-	    
 	   if(browserName.contains("chrome"))
 	   {
 		   String chromeDriverPath = System.getProperty("user.dir")+"\\src\\main\\java\\resources\\chromedriver.exe";
